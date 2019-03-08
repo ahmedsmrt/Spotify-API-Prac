@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Poiret One', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+#music {
+    width: 100%;
+    height: 100vh;
+    background: url(./bg-1.jpg) center center/cover fixed;
+}
+
+#search-music {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+    flex-direction: column;
+    
+}
+
+.search-bar {
+    display: flex;
+    position: relative;
+
+}
+
+#search-music i {
+    cursor: pointer;
+}
+
+#search-music i:hover {
+    color: #2E4053;
+}
+
+@keyframes phaseIn {
+    to {
+        width: 30rem;
+    }
+}
+
+
+#search-music input {
+    width: 0rem;
+    margin: 0 1rem;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    display: none;
+    transition: 1s;
+}
+
+#search-music h1 {
+    position: relative;
+    font-size: 4rem;
+}
+
+/* Music Search Content */ 
+
+#music-content {
+    margin-top: 2%;
+    background: white;
+    height: 20vh;
+    width: 100%;
+}
